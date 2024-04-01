@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,37,113,1) 52%, rgba(34,138,159,1) 100%);
+    margin: 4%;
+    font-family: "Georama", sans-serif;
+}
+
+h1{
+    color :white;
+    font-size:55px;
+    text-align: center;
+}
+
+h2{
+    color :white;
+    font-size: 30px;
+}
+
+p{
+    color : white;
+    text-align: justify;
+    font-size: 19px;
+    word-spacing: 3px;
+}
+
+ul{
+    color: white;
+    text-align: justify;
+    font-size: 19px;
+    word-spacing: 3px;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    width: 30%;
+    height: 20%x;
+    border-radius: 2%;
+    transition: 1s;
+    margin: 1.5%;
+}
+
+img:hover {
+    transform: scale(120%);
+}
