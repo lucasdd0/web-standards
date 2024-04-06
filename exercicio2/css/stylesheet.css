@@ -1,0 +1,41 @@
+:root{
+    --color-ligth: #ffffff;
+    --color-dark: #000000;
+    --color-pink: #dc143d;
+}
+
+* {
+    margin: 0;
+}
+
+
+
+.container{
+    width: 100%;
+    height: 100vh;                  
+    background-image: linear-gradient(to bottom, rgba(0,0,0, .8), rgba(0,0,0, .3)),
+    url(../imagens/pexels-felix-mittermeier-957002.jpg);
+    /* margin: 100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+
+.container h1{
+    color: var(--color-ligth)
+}
+
+/*vh = Viewport Height (permite que os elementos da pagina sejam dimensionados de acordo com o tamanho da tela)
+
+linear-gradiente = é uma transição entre duas ou mais cores
+
+to botoom = direção do gradiente
+
+root = criar variáveis
+
+background-repeat: no-repeat = para quando tirar o zoom não aparecer imagens repetidas
+
+
+
+*/
