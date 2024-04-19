@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url(../fonts/Jacquard_24\,Montserrat\,Roboto/);
+}
 
 body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,37,113,1) 52%, rgba(34,138,159,1) 100%);
     margin: 4%;
-    font-family: "Georama", sans-serif;
+    font-family: "Montserrat", sans-serif; 
 }
 
 h1{
