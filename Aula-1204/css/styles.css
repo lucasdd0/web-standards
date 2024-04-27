@@ -70,6 +70,37 @@ a:hover {
     font-size: clamp(24px, 4vw, 40px);
 }
 
+.btn{
+    background-color: var(--color-pink);
+    border: 3px solid var(--color-pink);
+    padding: 5px 30px;
+    border-radius: 70px;
+    transition: .7s;
+}
+
+.btn:hover{
+    background-color: transparent;
+}
+
+.logo-bg{
+    background-color: var(--color-pink);
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.cards{
+    border: 5px solid black;
+    width: 90%;
+    min-height: 100vh;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cards h3{
+    margin: 40px 0px;
+}
+
 
 
 
