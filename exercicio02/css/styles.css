@@ -87,7 +87,7 @@ a:hover {
     background-color: var(--color-pink);
     padding: 7px 10px;
     border-radius: 70px 70px 7px 70px;
-    margin: 10px;
+    margin-right: 5px;
 }
 
 .cards {
