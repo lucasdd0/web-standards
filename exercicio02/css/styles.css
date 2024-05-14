@@ -101,6 +101,7 @@ a:hover {
     margin-left: 3px;
 }
 
+<<<<<<< HEAD
 .btn:hover .arrow {
     animation: arrow 1.5s ease-in-out infinite;
 }
@@ -118,6 +119,13 @@ a:hover {
 
 .btn:hover {
     background-color: transparent;
+=======
+.logo-bg {
+    background-color: var(--color-pink);
+    padding: 7px 10px;
+    border-radius: 70px 70px 7px 70px;
+    margin-right: 5px;
+>>>>>>> 1c7c07f11b351b28c290ab0a71e5b064d4c3616b
 }
 
 .cards {
