@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Catamaram;
+    src: url(../fonts/static/Catamaran-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Catamaram;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 30px auto;
+}
+
+thead th{
+    color: white;
+    height: 40px;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+th, td{
+padding: 5px;
+font-size: 16px;
+text-align: center;
+border-bottom: 2px solid blueviolet;
+width: 25%;
+}
+
+tbody tr{
+    height: 60px;
+}
+
+tbody tr:hover{
+    background-color:rgba(137, 43, 226, 0.233);
+    cursor: pointer;
+}
